@@ -1,7 +1,15 @@
 aid: hydroleap
 name: Hydroleap
-description: Hydroleap is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Hydroleap is a Singapore-based greentech company revolutionizing industrial
+  water and wastewater treatment through proprietary electrochemical technology. Its
+  chemical-free, modularized systems - electro-coagulation (HL-EC), electro-oxidation
+  (HL-EO), and electro-oxidation for cooling towers (HL-EO-CT) - replace conventional
+  chemical-intensive processes with automated, energy-efficient alternatives. Hydroleap
+  serves data centers, palm oil mills, food and beverage production, pharmaceuticals
+  manufacturing, and municipal wastewater operators, helping businesses cut operating
+  costs, improve regulatory compliance, and reduce environmental impact. Backed by
+  500 Global, the company is profiled in the API Evangelist network; it publishes a
+  product and marketing website but no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/hydroleap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hydroleap.com/wp-content/uploads/2024/10/logoo.png
 tags:
 - Company
+- Water Treatment
+- Wastewater
+- Cleantech
+- Greentech
+- Sustainability
+- Electrochemical
+- Industrial
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hydroleap-domain-security.yml
 - type: Website
   url: https://hydroleap.com
+- type: About
+  url: https://www.hydroleap.com/about-us/
+- type: Blog
+  url: https://www.hydroleap.com/blogs/
+- type: Support
+  url: https://www.hydroleap.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hydroleap/
+- type: YouTube
+  url: https://www.youtube.com/@hydroleap-pte-ltd/videos
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
